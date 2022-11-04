@@ -1,7 +1,5 @@
 import { Heading, Text, VStack } from "native-base";
 
-import Logo from '../assets/logo.svg';
-
 import { Button } from "../components/Button";
 import { Header } from "../components/Header";
 import { Input } from "../components/Input";
@@ -12,9 +10,8 @@ export function Find() {
       <Header title="Buscar por código" showBackButton />
 
       <VStack mt={8} mx={5} alignItems="center">
-        <Logo />
 
-        <Heading fontFamily="heading" color="white" fontSize="xl" my={8} textAlign="center">
+        <Heading fontFamily="heading" color="white" fontSize="xl" mb={8} textAlign="center">
           Encontre um bolão através de {'\n'}
           seu código único
         </Heading>
